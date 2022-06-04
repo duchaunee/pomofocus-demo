@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./img/icon-title.jpg" type="image/x-icon" />
+    <title>Image Gallery</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        
+        <header class="header">
+            <div class="header__logo">
+                <i class="fas fa-check-circle"></i>
+                <span>duchaudeyy</span>
+            </div>
+
+            <div class="header__control">
+                <div class="header__report">
+                    <i class="fas fa-bug"></i>
+                    <span>Report</span>
+                </div>
+
+                <div class="header__setting">
+                    <i class="fas fa-cog"></i>
+                    <span>Setting</span>
+                </div>
+
+                <div class="header__login">
+                    <i class="fas fa-user"></i>
+                    <span>Login</span>
+                </div>
+            </div>
+        </header>
+
+        <div class="body">
+            <div class="body__main">
+                <div class="main__selection">
+                    <button class="pomodoro selection active">Pomodoro</button>
+                    <button class="short__break selection">Short Break</button>
+                    <button class="long__break selection">Long Break</button>
+                </div>
+
+                <div class="main__timer">
+                    <div class="timer">25:00</div>
+                </div>
+
+                <div class="main__start">
+                    <button class="btn__start">
+                        <div class="icon">
+                            <i class="fas fa-play-circle"></i>
+                        </div>
+                        Start
+                    </button>
+
+                    <button class="btn__start hide">
+                        <div class="icon">
+                            <i class="fas fa-stop-circle"></i>
+                        </div>
+                        Stop
+                    </button>
+                </div>
+            </div>
+
+            <div class="body__text">
+                <div class="body__text--main">#1</div>
+                <div class="body__text--sub">duchau</div>
+            </div>
+
+            <div class="body__tasks">
+                <div class="task__title">
+                    <span>Tasks</span>
+                    <i class="fas fa-ellipsis-v"></i>
+                </div>
+
+                <ul class="task__items">
+                    <li class="task__item">
+                        <div class="task__item--process">
+                            <i class="fas fa-check-circle"></i>
+                            <span>duchau</span>
+                        </div>
+                        <i class="fas fa-ellipsis-v"></i>
+                    </li>
+
+                    <li class="task__item">
+                        <div class="task__item--process">
+                            <i class="fas fa-check-circle"></i>
+                            <span>quynhmai</span>
+                        </div>
+                        <i class="fas fa-ellipsis-v"></i>
+                    </li>
+                    
+                </ul>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <audio id="audio" src="" autoplay="false" ></audio>
+    <script src="./app.js"></script>
+</body>
+
+</html>
